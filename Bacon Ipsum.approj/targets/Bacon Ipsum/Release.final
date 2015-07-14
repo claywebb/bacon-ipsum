@@ -1,0 +1,174 @@
+{
+    "assets": [
+        {
+            "asset": "Bacon Ipsum/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Bacon Ipsum/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Bacon Ipsum/pig.png", 
+            "target": "pig.png"
+        }, 
+        {
+            "asset": "Bacon Ipsum/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "Bacon Ipsum/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "Bacon Ipsum/en.lproj/MainStoryboard.storyboard", 
+            "target": null
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "Bacon Ipsum", 
+        "APPLICATION_IDENTIFIER": "ClayApps.Bacon_Ipsum", 
+        "APPLICATION_NAME": "BaconIpsum", 
+        "FEATURES": [
+            "portrait"
+        ], 
+        "ICU_CONFIG": "normal", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "Bacon Ipsum", 
+            "PRODUCT_NAME": "Bacon Ipsum"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 60100
+    }, 
+    "deps": [
+        "UIKit", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "Bacon Ipsum-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Bacon Ipsum-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Bacon Ipsum-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Bacon Ipsum-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Bacon Ipsum/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "Bacon Ipsum-Prefix.pch": {
+                    "key": "Bacon Ipsum-Prefix.pch", 
+                    "prefix": "Bacon Ipsum/", 
+                    "suffix": "Bacon Ipsum-Prefix.pch"
+                }, 
+                "BaconController.h": {
+                    "key": "BaconController.h", 
+                    "prefix": "Bacon Ipsum/", 
+                    "suffix": "BaconController.h"
+                }, 
+                "MainViewController.h": {
+                    "key": "MainViewController.h", 
+                    "prefix": "Bacon Ipsum/", 
+                    "suffix": "MainViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./Bacon Ipsum/Bacon Ipsum-Info.plist"
+    ], 
+    "java_libs": [], 
+    "java_res_dirs": [], 
+    "java_sourcepaths": [], 
+    "java_sources": [], 
+    "libs": [], 
+    "link_flags": [], 
+    "modules": [], 
+    "pchs": [
+        "./Bacon Ipsum/Bacon Ipsum-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Bacon Ipsum/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Bacon Ipsum/BaconController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Bacon Ipsum/MainViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Bacon Ipsum/main.m"
+        }
+    ], 
+    "type": "app", 
+    "version": "1", 
+    "xcode_project": "Bacon Ipsum.xcodeproj"
+}

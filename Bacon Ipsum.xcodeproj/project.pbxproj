@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2A61A417F7311700943701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2A61A317F7311700943701 /* UIKit.framework */; };
+		0A2A61A617F7311700943701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2A61A517F7311700943701 /* Foundation.framework */; };
+		0A2A61A817F7311700943701 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2A61A717F7311700943701 /* CoreGraphics.framework */; };
+		0A2A61AE17F7311700943701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A61AC17F7311700943701 /* InfoPlist.strings */; };
+		0A2A61B017F7311700943701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A61AF17F7311700943701 /* main.m */; };
+		0A2A61B417F7311700943701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A61B317F7311700943701 /* AppDelegate.m */; };
+		0A2A61B617F7311700943701 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A61B517F7311700943701 /* Default.png */; };
+		0A2A61B817F7311700943701 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A61B717F7311700943701 /* Default@2x.png */; };
+		0A2A61BA17F7311700943701 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A61B917F7311700943701 /* Default-568h@2x.png */; };
+		0A2A61BD17F7311700943701 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A61BB17F7311700943701 /* MainStoryboard.storyboard */; };
+		0A2A61D117F7341A00943701 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A61D017F7341A00943701 /* MainViewController.m */; };
+		0A56EFD917FB8384008C2606 /* BaconController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A56EFD817FB8384008C2606 /* BaconController.m */; };
+		0ACA3F16180248620068BE07 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA3F15180248620068BE07 /* pig.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2A61A017F7311700943701 /* Bacon Ipsum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bacon Ipsum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2A61A317F7311700943701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A2A61A517F7311700943701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A2A61A717F7311700943701 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A2A61AB17F7311700943701 /* Bacon Ipsum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bacon Ipsum-Info.plist"; sourceTree = "<group>"; };
+		0A2A61AD17F7311700943701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A2A61AF17F7311700943701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A2A61B117F7311700943701 /* Bacon Ipsum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bacon Ipsum-Prefix.pch"; sourceTree = "<group>"; };
+		0A2A61B217F7311700943701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A2A61B317F7311700943701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A2A61B517F7311700943701 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A2A61B717F7311700943701 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A2A61B917F7311700943701 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A2A61BC17F7311700943701 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0A2A61CF17F7341A00943701 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0A2A61D017F7341A00943701 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0A56EFD717FB8384008C2606 /* BaconController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaconController.h; sourceTree = "<group>"; };
+		0A56EFD817FB8384008C2606 /* BaconController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaconController.m; sourceTree = "<group>"; };
+		0ACA3F15180248620068BE07 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pig.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2A619D17F7311700943701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2A61A417F7311700943701 /* UIKit.framework in Frameworks */,
+				0A2A61A617F7311700943701 /* Foundation.framework in Frameworks */,
+				0A2A61A817F7311700943701 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2A619717F7311700943701 = {
+			isa = PBXGroup;
+			children = (
+				0A2A61A917F7311700943701 /* Bacon Ipsum */,
+				0A2A61A217F7311700943701 /* Frameworks */,
+				0A2A61A117F7311700943701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2A61A117F7311700943701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A61A017F7311700943701 /* Bacon Ipsum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2A61A217F7311700943701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A61A317F7311700943701 /* UIKit.framework */,
+				0A2A61A517F7311700943701 /* Foundation.framework */,
+				0A2A61A717F7311700943701 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A2A61A917F7311700943701 /* Bacon Ipsum */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A61B217F7311700943701 /* AppDelegate.h */,
+				0A2A61B317F7311700943701 /* AppDelegate.m */,
+				0A2A61BB17F7311700943701 /* MainStoryboard.storyboard */,
+				0A2A61CF17F7341A00943701 /* MainViewController.h */,
+				0A2A61D017F7341A00943701 /* MainViewController.m */,
+				0A56EFD717FB8384008C2606 /* BaconController.h */,
+				0A56EFD817FB8384008C2606 /* BaconController.m */,
+				0A2A61AA17F7311700943701 /* Supporting Files */,
+			);
+			path = "Bacon Ipsum";
+			sourceTree = "<group>";
+		};
+		0A2A61AA17F7311700943701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA3F1718024E700068BE07 /* Images */,
+				0A2A61AB17F7311700943701 /* Bacon Ipsum-Info.plist */,
+				0A2A61AC17F7311700943701 /* InfoPlist.strings */,
+				0A2A61AF17F7311700943701 /* main.m */,
+				0A2A61B117F7311700943701 /* Bacon Ipsum-Prefix.pch */,
+				0A2A61B517F7311700943701 /* Default.png */,
+				0A2A61B717F7311700943701 /* Default@2x.png */,
+				0A2A61B917F7311700943701 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0ACA3F1718024E700068BE07 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0ACA3F15180248620068BE07 /* pig.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2A619F17F7311700943701 /* Bacon Ipsum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2A61C317F7311700943701 /* Build configuration list for PBXNativeTarget "Bacon Ipsum" */;
+			buildPhases = (
+				0A2A619C17F7311700943701 /* Sources */,
+				0A2A619D17F7311700943701 /* Frameworks */,
+				0A2A619E17F7311700943701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bacon Ipsum";
+			productName = "Bacon Ipsum";
+			productReference = 0A2A61A017F7311700943701 /* Bacon Ipsum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2A619817F7311700943701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ClayApps;
+			};
+			buildConfigurationList = 0A2A619B17F7311700943701 /* Build configuration list for PBXProject "Bacon Ipsum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2A619717F7311700943701;
+			productRefGroup = 0A2A61A117F7311700943701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2A619F17F7311700943701 /* Bacon Ipsum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2A619E17F7311700943701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2A61AE17F7311700943701 /* InfoPlist.strings in Resources */,
+				0A2A61B617F7311700943701 /* Default.png in Resources */,
+				0ACA3F16180248620068BE07 /* pig.png in Resources */,
+				0A2A61B817F7311700943701 /* Default@2x.png in Resources */,
+				0A2A61BA17F7311700943701 /* Default-568h@2x.png in Resources */,
+				0A2A61BD17F7311700943701 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2A619C17F7311700943701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2A61B017F7311700943701 /* main.m in Sources */,
+				0A2A61B417F7311700943701 /* AppDelegate.m in Sources */,
+				0A2A61D117F7341A00943701 /* MainViewController.m in Sources */,
+				0A56EFD917FB8384008C2606 /* BaconController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A2A61AC17F7311700943701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2A61AD17F7311700943701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A2A61BB17F7311700943701 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2A61BC17F7311700943701 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2A61C117F7311700943701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A2A61C217F7311700943701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2A61C417F7311700943701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bacon Ipsum/Bacon Ipsum-Prefix.pch";
+				INFOPLIST_FILE = "Bacon Ipsum/Bacon Ipsum-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClayApps.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A2A61C517F7311700943701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bacon Ipsum/Bacon Ipsum-Prefix.pch";
+				INFOPLIST_FILE = "Bacon Ipsum/Bacon Ipsum-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClayApps.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2A619B17F7311700943701 /* Build configuration list for PBXProject "Bacon Ipsum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2A61C117F7311700943701 /* Debug */,
+				0A2A61C217F7311700943701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2A61C317F7311700943701 /* Build configuration list for PBXNativeTarget "Bacon Ipsum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2A61C417F7311700943701 /* Debug */,
+				0A2A61C517F7311700943701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2A619817F7311700943701 /* Project object */;
+}
